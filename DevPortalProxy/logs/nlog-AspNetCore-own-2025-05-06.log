@@ -1,0 +1,178 @@
+2025-05-06 10:39:19.4008|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 10:55:49.4200|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 11:01:20.7571|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 11:02:31.4422|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 11:07:29.8845|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 11:09:32.5575|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 11:09:57.0341|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 11:14:02.1301|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 11:14:40.5902|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 11:20:22.0779|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 11:30:00.9691|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 11:30:37.3818|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 11:50:41.2718|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 11:52:44.7419|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 11:57:16.2738|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 12:04:19.8829|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 12:07:31.3829|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 12:36:20.5185|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 12:42:51.2913|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 12:45:12.7087|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 12:53:39.6480|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 12:54:31.5633|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 12:55:19.5230|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 13:00:14.3348|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 13:00:58.7865|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 13:03:38.9240|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 13:44:36.8650|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 13:45:57.1948|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 13:53:59.0236|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 13:55:32.8222|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 13:56:40.1720|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 14:20:42.7282|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 15:10:21.3355|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 15:15:24.9059|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 15:38:21.3737|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 15:41:16.3136|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 15:42:27.1320|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 16:26:26.8680|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 16:26:27.0953|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-06 16:26:27.1009|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-06 16:26:27.1035|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-06 16:26:27.1035|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-06 16:26:27.1035|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-06 16:26:31.2129|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:26:31.2129|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: D256287CC997FD58992368E2FE22FF574E542AC5A6FDBDCD1C2D1313550E0C9D-1 |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:26:31.2129|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:26:32.4255|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-06 16:26:32.4368|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:28:10.3403|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-06 16:28:16.1806|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 16:28:16.3670|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-06 16:28:16.3731|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-06 16:28:16.3738|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-06 16:28:16.3738|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-06 16:28:16.3738|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-06 16:28:19.5517|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:28:19.5525|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: D256287CC997FD58992368E2FE22FF574E542AC5A6FDBDCD1C2D1313550E0C9D-1 |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:28:19.5525|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:28:20.4795|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-06 16:28:20.4960|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:31:11.4705|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:31:11.4705|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: D256287CC997FD58992368E2FE22FF574E542AC5A6FDBDCD1C2D1313550E0C9D-1 |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:31:11.4713|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:31:11.9441|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-06 16:31:11.9441|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:35:32.8776|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:35:32.8781|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: 76B85235C029B116377BDDEADFB9479C11E48FF3A60070937BBEEE13D86EF389-1 |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:35:32.8781|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:35:33.2550|0|ERROR|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:35:33.2560|7|INFO|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|BearerIdentityServerAuthenticationIntrospection was not authenticated. Failure message: Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:35:33.2560|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:35:43.1580|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:35:43.1580|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: 76B85235C029B116377BDDEADFB9479C11E48FF3A60070937BBEEE13D86EF389-1 |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:35:43.1589|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:35:44.3807|0|ERROR|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:35:44.3810|7|INFO|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|BearerIdentityServerAuthenticationIntrospection was not authenticated. Failure message: Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:35:44.3810|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:37:37.5667|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:37:37.5678|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: 76B85235C029B116377BDDEADFB9479C11E48FF3A60070937BBEEE13D86EF389-1 |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:37:37.5678|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:37:38.0228|0|ERROR|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:37:38.0237|7|INFO|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|BearerIdentityServerAuthenticationIntrospection was not authenticated. Failure message: Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/Author/get|action: 
+2025-05-06 16:37:38.0237|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/Author/get|action: 
+2025-05-06 17:19:50.6146|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-06 17:19:57.0504|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 17:19:57.2893|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-06 17:19:57.2919|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-06 17:19:57.2939|6|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: Scheme already exists: BearerIdentityServerAuthenticationJwt
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: 
+2025-05-06 17:19:57.3313|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-06 17:19:57.3337|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-06 17:19:57.3337|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-06 17:19:57.3337|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-06 17:27:58.8585|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-06 17:28:46.5892|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 17:28:46.8267|6|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'ProxyMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: 
+2025-05-06 17:28:46.8365|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-06 17:28:46.8394|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-06 17:28:46.8394|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-06 17:28:46.8394|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-06 17:34:01.3895|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-06 17:34:04.4147|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 17:34:04.6270|6|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'ProxyMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: 
+2025-05-06 17:34:04.6357|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-06 17:34:04.6381|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-06 17:34:04.6381|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-06 17:34:04.6381|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-06 17:36:30.2106|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-06 17:36:33.8276|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-06 17:36:34.0890|6|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'ProxyMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: 
+2025-05-06 17:36:34.0987|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-06 17:36:34.1012|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-06 17:36:34.1012|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-06 17:36:34.1012|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-06 17:42:41.5239|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 

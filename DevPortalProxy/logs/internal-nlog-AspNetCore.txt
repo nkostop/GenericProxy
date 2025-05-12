@@ -1,0 +1,982 @@
+2025-05-06 10:01:47.3823 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 10:01:47.3978 Error Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, Boolean throwOnFileNotFound)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(String assemblyName)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(ConfigurationItemFactory factory, String assemblyName, String itemNamePrefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2025-05-06 10:01:47.4024 Error Exception when loading configuration nlog.config Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, Boolean throwOnFileNotFound)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(String assemblyName)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(ConfigurationItemFactory factory, String assemblyName, String itemNamePrefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionsElement(ValidatedConfigurationElement extensionsElement, String baseDirectory)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(XmlLoggingConfigurationElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2025-05-06 10:01:47.4031 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 10:01:47.4738 Info Validating config: Targets=0, ConfigItems=0, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 10:01:47.4745 Info Configuration initialized.
+2025-05-06 10:03:15.7580 Info Shutdown() called. Logger closing...
+2025-05-06 10:03:15.7598 Info Closing old configuration.
+2025-05-06 10:03:15.7632 Info Logger has been closed down.
+2025-05-06 10:03:15.7646 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 10:03:15.7657 Info LogFactory has been closed.
+2025-05-06 10:03:22.1896 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 10:03:22.2022 Error Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, Boolean throwOnFileNotFound)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(String assemblyName)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(ConfigurationItemFactory factory, String assemblyName, String itemNamePrefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2025-05-06 10:03:22.2060 Error Exception when loading configuration nlog.config Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, Boolean throwOnFileNotFound)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(String assemblyName)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(ConfigurationItemFactory factory, String assemblyName, String itemNamePrefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionsElement(ValidatedConfigurationElement extensionsElement, String baseDirectory)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(XmlLoggingConfigurationElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2025-05-06 10:03:22.2060 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 10:03:22.2589 Info Validating config: Targets=0, ConfigItems=0, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 10:03:22.2597 Info Configuration initialized.
+2025-05-06 10:25:13.8111 Info Shutdown() called. Logger closing...
+2025-05-06 10:25:13.8120 Info Closing old configuration.
+2025-05-06 10:25:13.8157 Info Logger has been closed down.
+2025-05-06 10:25:13.8167 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 10:25:13.8175 Info LogFactory has been closed.
+2025-05-06 10:25:30.5138 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 10:25:30.5275 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 10:25:30.5431 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 10:25:30.5439 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 10:25:30.5445 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 10:25:30.5463 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 10:25:30.5982 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 10:25:30.6023 Info Configuration initialized.
+2025-05-06 10:25:30.6097 Warn FileTarget(Name=allfile): Failed to create file appender: /logs/nlog-AspNetCore-all-2025-05-06.log Exception: System.IO.IOException: Read-only file system : '/logs'
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateDirectoryFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender..ctor(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender.Factory.NLog.Internal.FileAppenders.IFileAppenderFactory.Open(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.FileAppenderCache.CreateAppender(String fileName, Int32 freeSpot)
+2025-05-06 10:25:30.6142 Warn FileTarget(Name=ownFile-web): Failed to create file appender: /logs/nlog-AspNetCore-own-2025-05-06.log Exception: System.IO.IOException: Read-only file system : '/logs'
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateDirectoryFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender..ctor(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender.Factory.NLog.Internal.FileAppenders.IFileAppenderFactory.Open(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.FileAppenderCache.CreateAppender(String fileName, Int32 freeSpot)
+2025-05-06 10:28:48.8193 Info Shutdown() called. Logger closing...
+2025-05-06 10:28:48.8228 Info Closing old configuration.
+2025-05-06 10:28:48.8288 Info Logger has been closed down.
+2025-05-06 10:28:48.8305 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 10:28:48.8305 Info LogFactory has been closed.
+2025-05-06 10:28:51.7414 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 10:28:51.7597 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 10:28:51.7768 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 10:28:51.7779 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 10:28:51.7787 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 10:28:51.7809 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 10:28:51.8339 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 10:28:51.8384 Info Configuration initialized.
+2025-05-06 10:28:51.8465 Warn FileTarget(Name=allfile): Failed to create file appender: /logs/nlog-AspNetCore-all-2025-05-06.log Exception: System.IO.IOException: Read-only file system : '/logs'
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateDirectoryFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender..ctor(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender.Factory.NLog.Internal.FileAppenders.IFileAppenderFactory.Open(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.FileAppenderCache.CreateAppender(String fileName, Int32 freeSpot)
+2025-05-06 10:28:51.8526 Warn FileTarget(Name=ownFile-web): Failed to create file appender: /logs/nlog-AspNetCore-own-2025-05-06.log Exception: System.IO.IOException: Read-only file system : '/logs'
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateDirectoryFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender..ctor(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender.Factory.NLog.Internal.FileAppenders.IFileAppenderFactory.Open(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.FileAppenderCache.CreateAppender(String fileName, Int32 freeSpot)
+2025-05-06 10:28:52.5566 Info Shutdown() called. Logger closing...
+2025-05-06 10:28:52.5566 Info Closing old configuration.
+2025-05-06 10:28:52.5655 Info Logger has been closed down.
+2025-05-06 10:28:52.5666 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 10:28:52.5666 Info LogFactory has been closed.
+2025-05-06 10:35:49.5182 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 10:35:49.5338 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 10:35:49.5493 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 10:35:49.5500 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 10:35:49.5510 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 10:35:49.5528 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 10:35:49.6053 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 10:35:49.6093 Info Configuration initialized.
+2025-05-06 10:38:23.1554 Info Configuration file change detected! Reloading in 1000ms...
+2025-05-06 10:38:24.0732 Info Shutdown() called. Logger closing...
+2025-05-06 10:38:24.0738 Info Closing old configuration.
+2025-05-06 10:38:24.0798 Info Logger has been closed down.
+2025-05-06 10:38:24.0810 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 10:38:24.0818 Info LogFactory has been closed.
+2025-05-06 10:38:27.1552 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 10:38:27.1695 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 10:38:27.1840 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 10:38:27.1848 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 10:38:27.1871 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 10:38:27.1894 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 10:38:27.2433 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 10:38:27.2471 Info Configuration initialized.
+2025-05-06 10:38:27.2543 Warn FileTarget(Name=allfile): Failed to create file appender: /logs/nlog-AspNetCore-all-2025-05-06.log Exception: System.IO.IOException: Read-only file system : '/logs'
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateDirectoryFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender..ctor(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender.Factory.NLog.Internal.FileAppenders.IFileAppenderFactory.Open(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.FileAppenderCache.CreateAppender(String fileName, Int32 freeSpot)
+2025-05-06 10:38:27.2588 Warn FileTarget(Name=ownFile-web): Failed to create file appender: /logs/nlog-AspNetCore-own-2025-05-06.log Exception: System.IO.IOException: Read-only file system : '/logs'
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateDirectoryFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender..ctor(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender.Factory.NLog.Internal.FileAppenders.IFileAppenderFactory.Open(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.FileAppenderCache.CreateAppender(String fileName, Int32 freeSpot)
+2025-05-06 10:38:36.8557 Info Shutdown() called. Logger closing...
+2025-05-06 10:38:36.8564 Info Closing old configuration.
+2025-05-06 10:38:36.8624 Info Logger has been closed down.
+2025-05-06 10:38:36.8632 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 10:38:36.8632 Info LogFactory has been closed.
+2025-05-06 10:39:19.3111 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 10:39:19.3257 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 10:39:19.3419 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 10:39:19.3427 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 10:39:19.3427 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 10:39:19.3449 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 10:39:19.3945 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 10:39:19.3983 Info Configuration initialized.
+2025-05-06 10:55:42.2783 Info Shutdown() called. Logger closing...
+2025-05-06 10:55:42.2794 Info Closing old configuration.
+2025-05-06 10:55:42.2883 Info Logger has been closed down.
+2025-05-06 10:55:42.2893 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 10:55:42.2900 Info LogFactory has been closed.
+2025-05-06 10:55:49.3309 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 10:55:49.3449 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 10:55:49.3603 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 10:55:49.3603 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 10:55:49.3617 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 10:55:49.3635 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 10:55:49.4135 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 10:55:49.4176 Info Configuration initialized.
+2025-05-06 11:01:12.3844 Info Shutdown() called. Logger closing...
+2025-05-06 11:01:12.3857 Info Closing old configuration.
+2025-05-06 11:01:12.3927 Info Logger has been closed down.
+2025-05-06 11:01:12.3941 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 11:01:12.3941 Info LogFactory has been closed.
+2025-05-06 11:01:20.6597 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 11:01:20.6741 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 11:01:20.6897 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 11:01:20.6906 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 11:01:20.6912 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 11:01:20.6933 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 11:01:20.7507 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 11:01:20.7546 Info Configuration initialized.
+2025-05-06 11:02:26.8847 Info Shutdown() called. Logger closing...
+2025-05-06 11:02:26.8853 Info Closing old configuration.
+2025-05-06 11:02:26.8920 Info Logger has been closed down.
+2025-05-06 11:02:26.8929 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 11:02:26.8935 Info LogFactory has been closed.
+2025-05-06 11:02:31.3330 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 11:02:31.3464 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 11:02:31.3631 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 11:02:31.3640 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 11:02:31.3647 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 11:02:31.3668 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 11:02:31.4342 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 11:02:31.4395 Info Configuration initialized.
+2025-05-06 11:07:24.9991 Info Shutdown() called. Logger closing...
+2025-05-06 11:07:24.9999 Info Closing old configuration.
+2025-05-06 11:07:25.0045 Info Logger has been closed down.
+2025-05-06 11:07:25.0054 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 11:07:25.0054 Info LogFactory has been closed.
+2025-05-06 11:07:29.7844 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 11:07:29.7981 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 11:07:29.8153 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 11:07:29.8164 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 11:07:29.8164 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 11:07:29.8190 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 11:07:29.8777 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 11:07:29.8820 Info Configuration initialized.
+2025-05-06 11:09:28.0848 Info Shutdown() called. Logger closing...
+2025-05-06 11:09:28.0856 Info Closing old configuration.
+2025-05-06 11:09:28.0934 Info Logger has been closed down.
+2025-05-06 11:09:28.0946 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 11:09:28.0955 Info LogFactory has been closed.
+2025-05-06 11:09:32.4534 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 11:09:32.4662 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 11:09:32.4815 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 11:09:32.4824 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 11:09:32.4829 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 11:09:32.4848 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 11:09:32.5498 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 11:09:32.5541 Info Configuration initialized.
+2025-05-06 11:09:53.2177 Info Shutdown() called. Logger closing...
+2025-05-06 11:09:53.2187 Info Closing old configuration.
+2025-05-06 11:09:53.2263 Info Logger has been closed down.
+2025-05-06 11:09:53.2263 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 11:09:53.2280 Info LogFactory has been closed.
+2025-05-06 11:09:56.9354 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 11:09:56.9477 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 11:09:56.9628 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 11:09:56.9636 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 11:09:56.9636 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 11:09:56.9660 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 11:09:57.0268 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 11:09:57.0314 Info Configuration initialized.
+2025-05-06 11:13:57.9060 Info Shutdown() called. Logger closing...
+2025-05-06 11:13:57.9075 Info Closing old configuration.
+2025-05-06 11:13:57.9129 Info Logger has been closed down.
+2025-05-06 11:13:57.9143 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 11:13:57.9151 Info LogFactory has been closed.
+2025-05-06 11:14:02.0342 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 11:14:02.0479 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 11:14:02.0626 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 11:14:02.0626 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 11:14:02.0640 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 11:14:02.0659 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 11:14:02.1238 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 11:14:02.1277 Info Configuration initialized.
+2025-05-06 11:14:36.0689 Info Shutdown() called. Logger closing...
+2025-05-06 11:14:36.0703 Info Closing old configuration.
+2025-05-06 11:14:36.0769 Info Logger has been closed down.
+2025-05-06 11:14:36.0847 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 11:14:36.0864 Info LogFactory has been closed.
+2025-05-06 11:14:40.4798 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 11:14:40.4989 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 11:14:40.5152 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 11:14:40.5164 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 11:14:40.5171 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 11:14:40.5192 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 11:14:40.5833 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 11:14:40.5872 Info Configuration initialized.
+2025-05-06 11:20:17.6369 Info Shutdown() called. Logger closing...
+2025-05-06 11:20:17.6387 Info Closing old configuration.
+2025-05-06 11:20:17.6463 Info Logger has been closed down.
+2025-05-06 11:20:17.6476 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 11:20:17.6484 Info LogFactory has been closed.
+2025-05-06 11:20:21.9765 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 11:20:21.9913 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 11:20:22.0066 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 11:20:22.0077 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 11:20:22.0117 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 11:20:22.0136 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 11:20:22.0717 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 11:20:22.0756 Info Configuration initialized.
+2025-05-06 11:29:56.1213 Info Shutdown() called. Logger closing...
+2025-05-06 11:29:56.1260 Info Closing old configuration.
+2025-05-06 11:29:56.1348 Info Logger has been closed down.
+2025-05-06 11:29:56.1372 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 11:29:56.1383 Info LogFactory has been closed.
+2025-05-06 11:30:00.8764 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 11:30:00.8904 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 11:30:00.9061 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 11:30:00.9070 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 11:30:00.9070 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 11:30:00.9092 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 11:30:00.9628 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 11:30:00.9666 Info Configuration initialized.
+2025-05-06 11:30:33.4523 Info Shutdown() called. Logger closing...
+2025-05-06 11:30:33.4531 Info Closing old configuration.
+2025-05-06 11:30:33.4596 Info Logger has been closed down.
+2025-05-06 11:30:33.4608 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 11:30:33.4616 Info LogFactory has been closed.
+2025-05-06 11:30:37.2876 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 11:30:37.3019 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 11:30:37.3165 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 11:30:37.3173 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 11:30:37.3195 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 11:30:37.3216 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 11:30:37.3754 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 11:30:37.3794 Info Configuration initialized.
+2025-05-06 11:50:37.1103 Info Shutdown() called. Logger closing...
+2025-05-06 11:50:37.1112 Info Closing old configuration.
+2025-05-06 11:50:37.1198 Info Logger has been closed down.
+2025-05-06 11:50:37.1209 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 11:50:37.1218 Info LogFactory has been closed.
+2025-05-06 11:50:41.1767 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 11:50:41.1915 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 11:50:41.2079 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 11:50:41.2089 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 11:50:41.2089 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 11:50:41.2115 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 11:50:41.2656 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 11:50:41.2695 Info Configuration initialized.
+2025-05-06 11:52:39.5660 Info Shutdown() called. Logger closing...
+2025-05-06 11:52:39.5679 Info Closing old configuration.
+2025-05-06 11:52:39.5742 Info Logger has been closed down.
+2025-05-06 11:52:39.5752 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 11:52:39.5752 Info LogFactory has been closed.
+2025-05-06 11:52:44.6361 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 11:52:44.6511 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 11:52:44.6666 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 11:52:44.6675 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 11:52:44.6675 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 11:52:44.6714 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 11:52:44.7347 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 11:52:44.7388 Info Configuration initialized.
+2025-05-06 11:57:11.1649 Info Shutdown() called. Logger closing...
+2025-05-06 11:57:11.1740 Info Closing old configuration.
+2025-05-06 11:57:11.1960 Info Logger has been closed down.
+2025-05-06 11:57:11.2001 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 11:57:11.2013 Info LogFactory has been closed.
+2025-05-06 11:57:16.1588 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 11:57:16.1737 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 11:57:16.1895 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 11:57:16.1907 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 11:57:16.1915 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 11:57:16.1934 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 11:57:16.2664 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 11:57:16.2712 Info Configuration initialized.
+2025-05-06 12:04:15.7058 Info Shutdown() called. Logger closing...
+2025-05-06 12:04:15.7078 Info Closing old configuration.
+2025-05-06 12:04:15.7143 Info Logger has been closed down.
+2025-05-06 12:04:15.7155 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 12:04:15.7169 Info LogFactory has been closed.
+2025-05-06 12:04:19.7835 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 12:04:19.7980 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 12:04:19.8129 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 12:04:19.8137 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 12:04:19.8145 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 12:04:19.8164 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 12:04:19.8764 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 12:04:19.8804 Info Configuration initialized.
+2025-05-06 12:07:25.2488 Info Shutdown() called. Logger closing...
+2025-05-06 12:07:25.2505 Info Closing old configuration.
+2025-05-06 12:07:25.2579 Info Logger has been closed down.
+2025-05-06 12:07:25.2593 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 12:07:25.2602 Info LogFactory has been closed.
+2025-05-06 12:07:31.2543 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 12:07:31.2695 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 12:07:31.2890 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 12:07:31.2901 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 12:07:31.2908 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 12:07:31.2929 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 12:07:31.3739 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 12:07:31.3778 Info Configuration initialized.
+2025-05-06 12:36:10.3611 Info Shutdown() called. Logger closing...
+2025-05-06 12:36:10.3611 Info Closing old configuration.
+2025-05-06 12:36:10.3684 Info Logger has been closed down.
+2025-05-06 12:36:10.3701 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 12:36:10.3701 Info LogFactory has been closed.
+2025-05-06 12:36:20.3836 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 12:36:20.4061 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 12:36:20.4281 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 12:36:20.4292 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 12:36:20.4292 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 12:36:20.4320 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 12:36:20.5112 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 12:36:20.5157 Info Configuration initialized.
+2025-05-06 12:42:46.0413 Info Shutdown() called. Logger closing...
+2025-05-06 12:42:46.0430 Info Closing old configuration.
+2025-05-06 12:42:46.0527 Info Logger has been closed down.
+2025-05-06 12:42:46.0539 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 12:42:46.0552 Info LogFactory has been closed.
+2025-05-06 12:42:51.0976 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 12:42:51.1126 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 12:42:51.1269 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 12:42:51.1278 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 12:42:51.1284 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 12:42:51.1302 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 12:42:51.2770 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 12:42:51.2853 Info Configuration initialized.
+2025-05-06 12:45:07.3086 Info Shutdown() called. Logger closing...
+2025-05-06 12:45:07.3102 Info Closing old configuration.
+2025-05-06 12:45:07.3172 Info Logger has been closed down.
+2025-05-06 12:45:07.3183 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 12:45:07.3192 Info LogFactory has been closed.
+2025-05-06 12:45:12.5932 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 12:45:12.6083 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 12:45:12.6272 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 12:45:12.6284 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 12:45:12.6293 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 12:45:12.6313 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 12:45:12.7017 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 12:45:12.7062 Info Configuration initialized.
+2025-05-06 12:53:34.5212 Info Shutdown() called. Logger closing...
+2025-05-06 12:53:34.5224 Info Closing old configuration.
+2025-05-06 12:53:34.5308 Info Logger has been closed down.
+2025-05-06 12:53:34.5320 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 12:53:34.5329 Info LogFactory has been closed.
+2025-05-06 12:53:39.5526 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 12:53:39.5666 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 12:53:39.5806 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 12:53:39.5806 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 12:53:39.5819 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 12:53:39.5836 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 12:53:39.6394 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 12:53:39.6436 Info Configuration initialized.
+2025-05-06 12:54:26.6439 Info Shutdown() called. Logger closing...
+2025-05-06 12:54:26.6456 Info Closing old configuration.
+2025-05-06 12:54:26.6531 Info Logger has been closed down.
+2025-05-06 12:54:26.6542 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 12:54:26.6551 Info LogFactory has been closed.
+2025-05-06 12:54:31.4582 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 12:54:31.4760 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 12:54:31.4906 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 12:54:31.4906 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 12:54:31.4921 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 12:54:31.4939 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 12:54:31.5565 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 12:54:31.5606 Info Configuration initialized.
+2025-05-06 12:55:14.6703 Info Shutdown() called. Logger closing...
+2025-05-06 12:55:14.6718 Info Closing old configuration.
+2025-05-06 12:55:14.6783 Info Logger has been closed down.
+2025-05-06 12:55:14.6796 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 12:55:14.6805 Info LogFactory has been closed.
+2025-05-06 12:55:19.4108 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 12:55:19.4254 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 12:55:19.4417 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 12:55:19.4427 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 12:55:19.4427 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 12:55:19.4451 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 12:55:19.5164 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 12:55:19.5203 Info Configuration initialized.
+2025-05-06 13:00:09.1746 Info Shutdown() called. Logger closing...
+2025-05-06 13:00:09.1790 Info Closing old configuration.
+2025-05-06 13:00:09.1888 Info Logger has been closed down.
+2025-05-06 13:00:09.1896 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 13:00:09.1902 Info LogFactory has been closed.
+2025-05-06 13:00:14.2033 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 13:00:14.2259 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 13:00:14.2461 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 13:00:14.2473 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 13:00:14.2479 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 13:00:14.2498 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 13:00:14.3279 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 13:00:14.3319 Info Configuration initialized.
+2025-05-06 13:00:53.5133 Info Shutdown() called. Logger closing...
+2025-05-06 13:00:53.5148 Info Closing old configuration.
+2025-05-06 13:00:53.5215 Info Logger has been closed down.
+2025-05-06 13:00:53.5225 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 13:00:53.5234 Info LogFactory has been closed.
+2025-05-06 13:00:58.6879 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 13:00:58.7029 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 13:00:58.7175 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 13:00:58.7185 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 13:00:58.7191 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 13:00:58.7210 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 13:00:58.7800 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 13:00:58.7840 Info Configuration initialized.
+2025-05-06 13:03:32.4509 Info Shutdown() called. Logger closing...
+2025-05-06 13:03:32.4518 Info Closing old configuration.
+2025-05-06 13:03:32.4599 Info Logger has been closed down.
+2025-05-06 13:03:32.4617 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 13:03:32.4658 Info LogFactory has been closed.
+2025-05-06 13:03:38.8031 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 13:03:38.8192 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 13:03:38.8346 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 13:03:38.8355 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 13:03:38.8355 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 13:03:38.8382 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 13:03:38.9176 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 13:03:38.9215 Info Configuration initialized.
+2025-05-06 13:44:31.4156 Info Shutdown() called. Logger closing...
+2025-05-06 13:44:31.4166 Info Closing old configuration.
+2025-05-06 13:44:31.4254 Info Logger has been closed down.
+2025-05-06 13:44:31.4264 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 13:44:31.4272 Info LogFactory has been closed.
+2025-05-06 13:44:36.7770 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 13:44:36.7915 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 13:44:36.8064 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 13:44:36.8074 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 13:44:36.8074 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 13:44:36.8098 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 13:44:36.8584 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 13:44:36.8625 Info Configuration initialized.
+2025-05-06 13:45:51.1554 Info Shutdown() called. Logger closing...
+2025-05-06 13:45:51.1581 Info Closing old configuration.
+2025-05-06 13:45:51.1657 Info Logger has been closed down.
+2025-05-06 13:45:51.1664 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 13:45:51.1664 Info LogFactory has been closed.
+2025-05-06 13:45:57.0704 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 13:45:57.0915 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 13:45:57.1066 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 13:45:57.1076 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 13:45:57.1076 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 13:45:57.1101 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 13:45:57.1874 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 13:45:57.1919 Info Configuration initialized.
+2025-05-06 13:53:52.5595 Info Shutdown() called. Logger closing...
+2025-05-06 13:53:52.5603 Info Closing old configuration.
+2025-05-06 13:53:52.5661 Info Logger has been closed down.
+2025-05-06 13:53:52.5672 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 13:53:52.5679 Info LogFactory has been closed.
+2025-05-06 13:53:58.9320 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 13:53:58.9458 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 13:53:58.9603 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 13:53:58.9612 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 13:53:58.9618 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 13:53:58.9645 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 13:53:59.0174 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 13:53:59.0212 Info Configuration initialized.
+2025-05-06 13:55:27.2541 Info Shutdown() called. Logger closing...
+2025-05-06 13:55:27.2593 Info Closing old configuration.
+2025-05-06 13:55:27.2654 Info Logger has been closed down.
+2025-05-06 13:55:27.2665 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 13:55:27.2673 Info LogFactory has been closed.
+2025-05-06 13:55:32.7089 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 13:55:32.7334 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 13:55:32.7494 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 13:55:32.7503 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 13:55:32.7503 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 13:55:32.7529 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 13:55:32.8154 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 13:55:32.8193 Info Configuration initialized.
+2025-05-06 13:56:35.3713 Info Shutdown() called. Logger closing...
+2025-05-06 13:56:35.3720 Info Closing old configuration.
+2025-05-06 13:56:35.3774 Info Logger has been closed down.
+2025-05-06 13:56:35.3786 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 13:56:35.3786 Info LogFactory has been closed.
+2025-05-06 13:56:40.0497 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 13:56:40.0679 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 13:56:40.0832 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 13:56:40.0841 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 13:56:40.0847 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 13:56:40.0865 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 13:56:40.1655 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 13:56:40.1695 Info Configuration initialized.
+2025-05-06 14:20:35.8478 Info Shutdown() called. Logger closing...
+2025-05-06 14:20:35.8525 Info Closing old configuration.
+2025-05-06 14:20:35.8631 Info Logger has been closed down.
+2025-05-06 14:20:35.8654 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 14:20:35.8664 Info LogFactory has been closed.
+2025-05-06 14:20:42.6052 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 14:20:42.6220 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 14:20:42.6404 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 14:20:42.6416 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 14:20:42.6422 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 14:20:42.6442 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 14:20:42.7219 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 14:20:42.7258 Info Configuration initialized.
+2025-05-06 15:10:09.5281 Info Shutdown() called. Logger closing...
+2025-05-06 15:10:09.5281 Info Closing old configuration.
+2025-05-06 15:10:09.5358 Info Logger has been closed down.
+2025-05-06 15:10:09.5376 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 15:10:09.5384 Info LogFactory has been closed.
+2025-05-06 15:10:21.2250 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 15:10:21.2425 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 15:10:21.2605 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 15:10:21.2613 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 15:10:21.2620 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 15:10:21.2640 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 15:10:21.3267 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 15:10:21.3313 Info Configuration initialized.
+2025-05-06 15:15:19.8759 Info Shutdown() called. Logger closing...
+2025-05-06 15:15:19.8769 Info Closing old configuration.
+2025-05-06 15:15:19.8828 Info Logger has been closed down.
+2025-05-06 15:15:19.8841 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 15:15:19.8841 Info LogFactory has been closed.
+2025-05-06 15:15:24.7860 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 15:15:24.7996 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 15:15:24.8169 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 15:15:24.8183 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 15:15:24.8190 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 15:15:24.8208 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 15:15:24.8996 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 15:15:24.9035 Info Configuration initialized.
+2025-05-06 15:38:17.2863 Info Shutdown() called. Logger closing...
+2025-05-06 15:38:17.2871 Info Closing old configuration.
+2025-05-06 15:38:17.2950 Info Logger has been closed down.
+2025-05-06 15:38:17.2961 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 15:38:17.2969 Info LogFactory has been closed.
+2025-05-06 15:38:21.2743 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 15:38:21.2877 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 15:38:21.3032 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 15:38:21.3041 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 15:38:21.3041 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 15:38:21.3067 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 15:38:21.3666 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 15:38:21.3710 Info Configuration initialized.
+2025-05-06 15:41:10.4764 Info Shutdown() called. Logger closing...
+2025-05-06 15:41:10.4776 Info Closing old configuration.
+2025-05-06 15:41:10.4842 Info Logger has been closed down.
+2025-05-06 15:41:10.4852 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 15:41:10.4860 Info LogFactory has been closed.
+2025-05-06 15:41:16.1950 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 15:41:16.2102 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 15:41:16.2258 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 15:41:16.2318 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 15:41:16.2333 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 15:41:16.2354 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 15:41:16.3066 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 15:41:16.3109 Info Configuration initialized.
+2025-05-06 15:42:23.1776 Info Shutdown() called. Logger closing...
+2025-05-06 15:42:23.1789 Info Closing old configuration.
+2025-05-06 15:42:23.1854 Info Logger has been closed down.
+2025-05-06 15:42:23.1866 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 15:42:23.1875 Info LogFactory has been closed.
+2025-05-06 15:42:27.0299 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 15:42:27.0440 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 15:42:27.0588 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 15:42:27.0599 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 15:42:27.0599 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 15:42:27.0624 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 15:42:27.1245 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 15:42:27.1288 Info Configuration initialized.
+2025-05-06 16:26:20.6720 Info Shutdown() called. Logger closing...
+2025-05-06 16:26:20.6738 Info Closing old configuration.
+2025-05-06 16:26:20.6823 Info Logger has been closed down.
+2025-05-06 16:26:20.6853 Info AppDomain Shutting down. LogFactory closing...
+2025-05-06 16:26:20.6860 Info LogFactory has been closed.
+2025-05-06 16:26:26.7537 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 16:26:26.7696 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 16:26:26.7871 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 16:26:26.7881 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 16:26:26.7887 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 16:26:26.7905 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 16:26:26.8618 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 16:26:26.8656 Info Configuration initialized.
+2025-05-06 16:26:27.0228 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 16:28:10.3845 Info Shutdown() called. Logger closing...
+2025-05-06 16:28:10.3901 Info Closing old configuration.
+2025-05-06 16:28:10.3977 Info Logger has been closed down.
+2025-05-06 16:28:16.0677 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 16:28:16.0822 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 16:28:16.0969 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 16:28:16.0978 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 16:28:16.0984 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 16:28:16.1002 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 16:28:16.1742 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 16:28:16.1782 Info Configuration initialized.
+2025-05-06 16:28:16.3046 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 17:19:50.6641 Info Shutdown() called. Logger closing...
+2025-05-06 17:19:50.6656 Info Closing old configuration.
+2025-05-06 17:19:50.6752 Info Logger has been closed down.
+2025-05-06 17:19:56.9244 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 17:19:56.9390 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 17:19:56.9582 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 17:19:56.9608 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 17:19:56.9617 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 17:19:56.9640 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 17:19:57.0393 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 17:19:57.0476 Info Configuration initialized.
+2025-05-06 17:19:57.2140 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 17:27:58.8701 Info Shutdown() called. Logger closing...
+2025-05-06 17:27:58.8708 Info Closing old configuration.
+2025-05-06 17:27:58.8735 Info Logger has been closed down.
+2025-05-06 17:28:46.4634 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 17:28:46.4904 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 17:28:46.5079 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 17:28:46.5090 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 17:28:46.5096 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 17:28:46.5115 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 17:28:46.5824 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 17:28:46.5867 Info Configuration initialized.
+2025-05-06 17:28:46.7541 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 17:34:01.4237 Info Shutdown() called. Logger closing...
+2025-05-06 17:34:01.4244 Info Closing old configuration.
+2025-05-06 17:34:01.4297 Info Logger has been closed down.
+2025-05-06 17:34:04.3245 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 17:34:04.3389 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 17:34:04.3547 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 17:34:04.3556 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 17:34:04.3562 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 17:34:04.3580 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 17:34:04.4085 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 17:34:04.4123 Info Configuration initialized.
+2025-05-06 17:34:04.5573 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 17:36:30.2342 Info Shutdown() called. Logger closing...
+2025-05-06 17:36:30.2352 Info Closing old configuration.
+2025-05-06 17:36:30.2389 Info Logger has been closed down.
+2025-05-06 17:36:33.7312 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-06 17:36:33.7481 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-06 17:36:33.7631 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-06 17:36:33.7640 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-06 17:36:33.7647 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-06 17:36:33.7667 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-06 17:36:33.8210 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 17:36:33.8252 Info Configuration initialized.
+2025-05-06 17:36:33.9991 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-06 17:42:41.5441 Info Shutdown() called. Logger closing...
+2025-05-06 17:42:41.5453 Info Closing old configuration.
+2025-05-06 17:42:41.5500 Info Logger has been closed down.
+2025-05-07 10:02:41.7023 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-07 10:02:41.7165 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-07 10:02:41.7327 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-07 10:02:41.7367 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-07 10:02:41.7378 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-07 10:02:41.7431 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-07 10:02:41.8167 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-07 10:02:41.8207 Info Configuration initialized.
+2025-05-07 10:02:42.0411 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-07 12:56:10.1481 Info Shutdown() called. Logger closing...
+2025-05-07 12:56:10.1530 Info Closing old configuration.
+2025-05-07 12:56:10.1597 Info Logger has been closed down.
+2025-05-07 12:56:19.7381 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-07 12:56:19.7518 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-07 12:56:19.7686 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-07 12:56:19.7694 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-07 12:56:19.7694 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-07 12:56:19.7724 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-07 12:56:19.8693 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-07 12:56:19.8785 Info Configuration initialized.
+2025-05-07 12:56:20.0701 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-07 17:30:14.6323 Info Shutdown() called. Logger closing...
+2025-05-07 17:30:14.6357 Info Closing old configuration.
+2025-05-07 17:30:14.6424 Info Logger has been closed down.
+2025-05-07 17:30:29.5514 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-07 17:30:29.5645 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-07 17:30:29.5804 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-07 17:30:29.5812 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-07 17:30:29.5812 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-07 17:30:29.5838 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-07 17:30:29.6300 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-07 17:30:29.6338 Info Configuration initialized.
+2025-05-07 17:30:29.7891 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-07 17:37:42.8765 Info Shutdown() called. Logger closing...
+2025-05-07 17:37:42.8774 Info Closing old configuration.
+2025-05-07 17:37:42.8804 Info Logger has been closed down.
+2025-05-07 17:37:48.0063 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-07 17:37:48.0226 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-07 17:37:48.0387 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-07 17:37:48.0398 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-07 17:37:48.0404 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-07 17:37:48.0422 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-07 17:37:48.1041 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-07 17:37:48.1082 Info Configuration initialized.
+2025-05-07 17:37:48.2667 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-07 18:29:49.5202 Info Shutdown() called. Logger closing...
+2025-05-07 18:29:49.5224 Info Closing old configuration.
+2025-05-07 18:29:49.5300 Info Logger has been closed down.
+2025-05-07 18:29:56.5724 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-07 18:29:56.5875 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-07 18:29:56.6037 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-07 18:29:56.6046 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-07 18:29:56.6046 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-07 18:29:56.6070 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-07 18:29:56.6944 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-07 18:29:56.6985 Info Configuration initialized.
+2025-05-07 18:29:56.8580 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-07 18:30:16.9391 Info Shutdown() called. Logger closing...
+2025-05-07 18:30:16.9403 Info Closing old configuration.
+2025-05-07 18:30:16.9437 Info Logger has been closed down.
+2025-05-07 18:30:20.7312 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-07 18:30:20.7464 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-07 18:30:20.7617 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-07 18:30:20.7626 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-07 18:30:20.7626 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-07 18:30:20.7661 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-07 18:30:20.8288 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-07 18:30:20.8330 Info Configuration initialized.
+2025-05-07 18:30:20.9777 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 13:48:56.1466 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 13:48:56.1628 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 13:48:56.1808 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 13:48:56.1818 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 13:48:56.1818 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 13:48:56.1840 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 13:48:56.2510 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 13:48:56.2554 Info Configuration initialized.
+2025-05-09 13:48:56.4492 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:30:41.4228 Info Shutdown() called. Logger closing...
+2025-05-09 14:30:41.4236 Info Closing old configuration.
+2025-05-09 14:30:41.4272 Info Logger has been closed down.
+2025-05-09 14:30:47.8517 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 14:30:47.8655 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 14:30:47.8811 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 14:30:47.8819 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 14:30:47.8824 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 14:30:47.8843 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 14:30:47.9450 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:30:47.9490 Info Configuration initialized.
+2025-05-09 14:30:48.1636 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:31:30.4945 Info Shutdown() called. Logger closing...
+2025-05-09 14:31:30.4955 Info Closing old configuration.
+2025-05-09 14:31:30.4998 Info Logger has been closed down.
+2025-05-09 14:31:34.8868 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 14:31:34.9079 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 14:31:34.9334 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 14:31:34.9356 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 14:31:34.9374 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 14:31:34.9406 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 14:31:35.0446 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:31:35.0498 Info Configuration initialized.
+2025-05-09 14:31:35.2360 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:31:51.2127 Info Shutdown() called. Logger closing...
+2025-05-09 14:31:51.2137 Info Closing old configuration.
+2025-05-09 14:31:51.2172 Info Logger has been closed down.
+2025-05-09 14:31:54.2175 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 14:31:54.2315 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 14:31:54.2507 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 14:31:54.2537 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 14:31:54.2544 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 14:31:54.2567 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 14:31:54.3140 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:31:54.3188 Info Configuration initialized.
+2025-05-09 14:31:54.4437 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:32:35.6244 Info Shutdown() called. Logger closing...
+2025-05-09 14:32:35.6255 Info Closing old configuration.
+2025-05-09 14:32:35.6292 Info Logger has been closed down.
+2025-05-09 14:32:40.9560 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 14:32:40.9706 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 14:32:40.9852 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 14:32:40.9889 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 14:32:40.9889 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 14:32:40.9913 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 14:32:41.0608 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:32:41.0648 Info Configuration initialized.
+2025-05-09 14:32:41.2371 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:39:12.4750 Info Shutdown() called. Logger closing...
+2025-05-09 14:39:12.4758 Info Closing old configuration.
+2025-05-09 14:39:12.4797 Info Logger has been closed down.
+2025-05-09 14:40:32.0659 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 14:40:32.0817 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 14:40:32.0998 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 14:40:32.0998 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 14:40:32.1011 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 14:40:32.1029 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 14:40:32.1631 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:40:32.1672 Info Configuration initialized.
+2025-05-09 14:40:32.3405 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:42:10.7257 Info Shutdown() called. Logger closing...
+2025-05-09 14:42:10.7257 Info Closing old configuration.
+2025-05-09 14:42:10.7303 Info Logger has been closed down.
+2025-05-09 14:42:16.4714 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 14:42:16.4862 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 14:42:16.5029 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 14:42:16.5038 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 14:42:16.5038 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 14:42:16.5063 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 14:42:16.5798 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:42:16.5839 Info Configuration initialized.
+2025-05-09 14:42:16.7337 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:45:56.2780 Info Shutdown() called. Logger closing...
+2025-05-09 14:45:56.2789 Info Closing old configuration.
+2025-05-09 14:45:56.2824 Info Logger has been closed down.
+2025-05-09 14:46:02.0023 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 14:46:02.0178 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 14:46:02.0322 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 14:46:02.0322 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 14:46:02.0336 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 14:46:02.0356 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 14:46:02.1283 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:46:02.1327 Info Configuration initialized.
+2025-05-09 14:46:02.2472 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:47:07.0740 Info Shutdown() called. Logger closing...
+2025-05-09 14:47:07.0740 Info Closing old configuration.
+2025-05-09 14:47:07.0773 Info Logger has been closed down.
+2025-05-09 14:47:13.7232 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 14:47:13.7386 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 14:47:13.7575 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 14:47:13.7589 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 14:47:13.7601 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 14:47:13.7632 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 14:47:13.8543 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:47:13.8595 Info Configuration initialized.
+2025-05-09 14:47:14.0193 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:48:26.7631 Info Shutdown() called. Logger closing...
+2025-05-09 14:48:26.7640 Info Closing old configuration.
+2025-05-09 14:48:26.7678 Info Logger has been closed down.
+2025-05-09 14:48:30.1035 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 14:48:30.1189 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 14:48:30.1339 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 14:48:30.1357 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 14:48:30.1364 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 14:48:30.1383 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 14:48:30.2105 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:48:30.2147 Info Configuration initialized.
+2025-05-09 14:48:30.3527 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:52:07.6970 Info Shutdown() called. Logger closing...
+2025-05-09 14:52:07.6970 Info Closing old configuration.
+2025-05-09 14:52:07.7020 Info Logger has been closed down.
+2025-05-09 14:52:11.1485 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 14:52:11.1639 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 14:52:11.1822 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 14:52:11.1837 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 14:52:11.1845 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 14:52:11.1865 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 14:52:11.2534 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 14:52:11.2573 Info Configuration initialized.
+2025-05-09 14:52:11.3974 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 15:14:14.7438 Info Shutdown() called. Logger closing...
+2025-05-09 15:14:14.7460 Info Closing old configuration.
+2025-05-09 15:14:14.7508 Info Logger has been closed down.
+2025-05-09 15:17:52.8305 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 15:17:52.8455 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 15:17:52.8647 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 15:17:52.8658 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 15:17:52.8665 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 15:17:52.8685 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 15:17:52.9455 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 15:17:52.9499 Info Configuration initialized.
+2025-05-09 15:17:53.1535 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 15:27:03.5852 Info Shutdown() called. Logger closing...
+2025-05-09 15:27:03.5861 Info Closing old configuration.
+2025-05-09 15:27:03.5912 Info Logger has been closed down.
+2025-05-09 15:27:13.8095 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 15:27:13.8228 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 15:27:13.8390 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 15:27:13.8398 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 15:27:13.8398 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 15:27:13.8423 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 15:27:13.8994 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 15:27:13.9034 Info Configuration initialized.
+2025-05-09 15:27:14.0843 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 15:28:26.8007 Info Shutdown() called. Logger closing...
+2025-05-09 15:28:26.8007 Info Closing old configuration.
+2025-05-09 15:28:26.8042 Info Logger has been closed down.
+2025-05-09 15:28:31.6333 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 15:28:31.6480 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 15:28:31.6643 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 15:28:31.6652 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 15:28:31.6658 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 15:28:31.6678 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 15:28:31.7259 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 15:28:31.7301 Info Configuration initialized.
+2025-05-09 15:28:31.8689 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 15:29:36.9332 Info Shutdown() called. Logger closing...
+2025-05-09 15:29:36.9345 Info Closing old configuration.
+2025-05-09 15:29:36.9379 Info Logger has been closed down.
+2025-05-09 15:29:41.4757 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 15:29:41.4891 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 15:29:41.5048 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 15:29:41.5059 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 15:29:41.5059 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 15:29:41.5084 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 15:29:41.5729 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 15:29:41.5770 Info Configuration initialized.
+2025-05-09 15:29:41.7082 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 15:30:47.2017 Info Shutdown() called. Logger closing...
+2025-05-09 15:30:47.2017 Info Closing old configuration.
+2025-05-09 15:30:47.2070 Info Logger has been closed down.
+2025-05-09 15:30:51.8189 Info Loading assembly name: NLog.Web.AspNetCore
+2025-05-09 15:30:51.8328 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.1202. Product version: 5.4.0+1a84e4cd5773967e452956643bd8d3fe4b688e55. GlobalAssemblyCache: False
+2025-05-09 15:30:51.8485 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-09 15:30:51.8495 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-09 15:30:51.8501 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2025-05-09 15:30:51.8519 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-09 15:30:51.9102 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config
+2025-05-09 15:30:51.9152 Info Configuration initialized.
+2025-05-09 15:30:52.0701 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/nlog.config

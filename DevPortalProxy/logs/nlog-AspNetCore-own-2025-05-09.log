@@ -1,0 +1,1136 @@
+2025-05-09 13:48:56.2583|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 13:48:56.5194|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-09 13:48:56.5217|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-09 13:48:56.5240|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-09 13:48:56.5301|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 13:48:56.5308|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 13:48:56.5308|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 13:48:56.5308|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 13:48:58.3327|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/test|action: Post
+2025-05-09 13:48:58.3327|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/test|action: Post
+2025-05-09 13:48:58.3338|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/test|action: Post
+2025-05-09 13:48:58.3392|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/test|action: Post
+2025-05-09 13:49:00.1926|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/test|action: Post
+2025-05-09 13:49:00.2004|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/test|action: Post
+2025-05-09 13:49:00.2159|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Forwarding challenge to scheme: BearerIdentityServerAuthenticationIntrospection |url: http://localhost/api/test|action: Post
+2025-05-09 13:49:00.2159|12|INFO|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|AuthenticationScheme: BearerIdentityServerAuthenticationIntrospection was challenged. |url: http://localhost/api/test|action: Post
+2025-05-09 13:49:00.2159|12|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|AuthenticationScheme: Bearer was challenged. |url: http://localhost/api/test|action: Post
+2025-05-09 14:27:36.4120|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:27:36.4128|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:27:36.4128|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:27:36.4149|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:27:36.9930|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 14:27:36.9969|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:28:08.9608|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:28:08.9608|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:28:08.9608|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:28:08.9619|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:28:09.3119|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 14:28:09.3130|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:28:10.4509|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:28:10.4509|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:28:10.4509|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:28:10.4509|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:28:10.7938|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 14:28:10.7955|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:29:37.0217|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:29:37.0217|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:29:37.0217|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:29:37.0228|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:29:37.5585|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 14:29:37.5649|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:30:41.3916|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-09 14:30:47.9515|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 14:30:48.2398|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-09 14:30:48.2420|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-09 14:30:48.2450|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-09 14:30:48.2519|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 14:30:48.2535|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 14:30:48.2535|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 14:30:48.2535|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 14:30:53.0448|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:30:53.0456|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:30:53.0456|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:30:53.0515|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:30:54.1327|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 14:30:54.1383|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:31:30.4693|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-09 14:31:35.0529|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 14:31:35.3009|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-09 14:31:35.3031|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-09 14:31:35.3041|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-09 14:31:35.3096|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 14:31:35.3104|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 14:31:35.3104|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 14:31:35.3104|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 14:31:51.1858|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-09 14:31:54.3214|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 14:31:54.5051|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-09 14:31:54.5113|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 14:31:54.5113|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 14:31:54.5122|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 14:31:54.5122|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 14:32:35.5985|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-09 14:32:41.0672|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 14:32:41.2942|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-09 14:32:41.2964|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-09 14:32:41.2972|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-09 14:32:41.3025|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 14:32:41.3037|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 14:32:41.3037|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 14:32:41.3037|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 14:39:12.4534|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-09 14:40:32.1698|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 14:40:32.4095|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-09 14:40:32.4116|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-09 14:40:32.4124|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-09 14:40:32.4180|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 14:40:32.4189|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 14:40:32.4189|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 14:40:32.4189|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 14:42:10.6993|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-09 14:42:16.5863|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 14:42:16.8003|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-09 14:42:16.8024|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-09 14:42:16.8047|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-09 14:42:16.8103|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 14:42:16.8113|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 14:42:16.8113|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 14:42:16.8113|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 14:42:20.8468|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:42:20.8468|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:42:20.8468|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:42:20.8529|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:42:22.4347|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 14:42:22.4434|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:45:02.1579|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:45:02.1585|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:45:02.1585|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:45:02.1585|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:45:02.7279|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 14:45:02.7279|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:45:56.2629|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-09 14:46:02.1352|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 14:46:02.3097|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-09 14:46:02.3111|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-09 14:46:02.3129|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-09 14:46:02.3174|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 14:46:02.3184|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 14:46:02.3184|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 14:46:02.3184|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 14:46:04.7118|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:46:04.7124|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:46:04.7124|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:46:04.7170|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:46:05.7880|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 14:46:05.7967|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:47:07.0568|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-09 14:47:13.8627|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 14:47:14.1311|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-09 14:47:14.1420|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 14:47:14.1448|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 14:47:14.1449|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 14:47:14.1449|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 14:47:17.3219|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:47:17.3219|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:47:17.3219|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:47:17.3289|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:47:18.7005|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 14:47:18.7079|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:48:03.9676|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/test|action: Post
+2025-05-09 14:48:03.9676|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/test|action: Post
+2025-05-09 14:48:03.9676|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/test|action: Post
+2025-05-09 14:48:03.9690|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/test|action: Post
+2025-05-09 14:48:04.6012|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/test|action: Post
+2025-05-09 14:48:04.6029|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/test|action: Post
+2025-05-09 14:48:04.6299|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Forwarding challenge to scheme: BearerIdentityServerAuthenticationIntrospection |url: http://localhost/api/test|action: Post
+2025-05-09 14:48:04.6299|12|INFO|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|AuthenticationScheme: BearerIdentityServerAuthenticationIntrospection was challenged. |url: http://localhost/api/test|action: Post
+2025-05-09 14:48:04.6299|12|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|AuthenticationScheme: Bearer was challenged. |url: http://localhost/api/test|action: Post
+2025-05-09 14:48:26.7390|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-09 14:48:30.2172|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 14:48:30.4283|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-09 14:48:30.4340|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 14:48:30.4347|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 14:48:30.4347|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 14:48:30.4347|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 14:48:32.8823|12|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|AuthenticationScheme: Bearer was challenged. |url: http://localhost/api/test|action: Post
+2025-05-09 14:48:36.1760|12|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|AuthenticationScheme: Bearer was challenged. |url: http://localhost/api/test|action: Post
+2025-05-09 14:52:07.6768|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-09 14:52:11.2597|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 14:52:11.4623|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-09 14:52:11.4649|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-09 14:52:11.4675|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-09 14:52:11.4737|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 14:52:11.4744|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 14:52:11.4744|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 14:52:11.4744|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 14:52:14.7834|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:52:14.7842|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:52:14.7842|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:52:14.7907|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 14:52:16.2507|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 14:52:16.2551|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:02:57.3869|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:02:57.3873|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:02:57.3873|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:02:57.3894|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:02:57.8758|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:02:57.8782|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:06:26.9748|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:06:26.9748|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:06:26.9754|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:06:26.9770|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:06:27.5586|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:06:27.5600|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:09:42.5828|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:09:42.5838|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:09:42.5838|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:09:42.5838|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:09:43.2446|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:09:43.2459|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:14:14.7177|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-09 15:17:52.9528|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 15:17:53.2336|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-09 15:17:53.2360|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-09 15:17:53.2384|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-09 15:17:53.2453|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 15:17:53.2462|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 15:17:53.2462|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 15:17:53.2462|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 15:22:08.1185|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:22:08.1195|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:22:08.1196|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:22:08.1258|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:22:09.2631|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:22:09.2716|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:26:56.8631|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:26:56.8639|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:26:56.8639|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:26:56.8721|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:26:57.7143|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:26:57.7159|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:27:03.5645|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-09 15:27:13.9060|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 15:27:14.1571|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-09 15:27:14.1645|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Configuring route '/' |url: |action: 
+2025-05-09 15:27:14.1651|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Modules.Audit.DefaultAuditModule|Default audit enabled on route '/'. |url: |action: 
+2025-05-09 15:27:14.1665|0|ERROR|Nbg.AspNetCore.Audit.Filter.AuditLogic|*** AuditFilter configuration caused an exception and was not completed. *** Nbg.AspNetCore.Audit.Filter.AuditFilterException: Configuration values [UseSqlServer] and [UseBigDataClient] cannot be both false - please set at least one of them to true.
+   at Nbg.AspNetCore.Audit.Filter.AuditFilterOptions.Validate()
+   at Nbg.AspNetCore.Audit.Filter.AuditLogic.ReconfigureAuditFilter(AuditFilterOptions configuration, Boolean firstConfiguration)|url: |action: 
+2025-05-09 15:27:14.1705|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Failed to configure route map Nbg.AspNetCore.Audit.Filter.AuditFilterException: *** AuditFilter configuration caused an exception and was not completed. ***
+ ---> Nbg.AspNetCore.Audit.Filter.AuditFilterException: Configuration values [UseSqlServer] and [UseBigDataClient] cannot be both false - please set at least one of them to true.
+   at Nbg.AspNetCore.Audit.Filter.AuditFilterOptions.Validate()
+   at Nbg.AspNetCore.Audit.Filter.AuditLogic.ReconfigureAuditFilter(AuditFilterOptions configuration, Boolean firstConfiguration)
+   --- End of inner exception stack trace ---
+   at Nbg.AspNetCore.Audit.Filter.AuditLogic.ReconfigureAuditFilter(AuditFilterOptions configuration, Boolean firstConfiguration)
+   at Nbg.AspNetCore.Audit.Filter.AuditLogic..ctor(IIdentityService identityService, IServiceAuditDataInterceptor serviceAuditInterceptor, IOptions`1 options, IServiceProvider sp, ILogger`1 logger)
+   at Nbg.AspNetCore.Audit.Filter.Module.AuditModuleDiExtensions.<>c.<AddAuditModulePrivate>b__1_0(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.<>c__37`1.<AddFilter>b__37_0(IServiceProvider sp)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.AddFilter(Func`2 factory)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.AddFilter[T]()
+   at Nbg.AspNetCore.ProxyMiddleware.RouteAuditDiExtensions.AddAudit(Route route)
+   at Nbg.AspNetCore.ProxyMiddleware.Modules.Audit.DefaultAuditModule.Configure(Route route, RouteOptions routeOptions, ProxyMiddlewareOptions middlewareOptions)
+   at Nbg.AspNetCore.ProxyMiddleware.Configuration.ConfigureAudit.<>c__DisplayClass0_0.<Configure>b__0(IServiceProvider sp)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.Configure(Action`1 initializer)
+   at Nbg.AspNetCore.ProxyMiddleware.Configuration.ConfigureAudit.Configure(Route route, RouteOptions routeOptions, ProxyMiddlewareOptions middlewareOptions)
+   at Nbg.AspNetCore.ProxyMiddleware.Configuration.RouteConfigurators.Configure(Route route, RouteOptions routeOptions, ProxyMiddlewareOptions middlewareOptions)
+   at Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate.ConfigureRoute(RouteMap routeMap, ProxyMiddlewareOptions middlewareOptions, RouteOptions routeOptions, Route parentRoute)
+   at Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate.ConfigureDefaultRoutes(RouteMap routeMap, ProxyMiddlewareOptions middlewareOptions, List`1 routes)
+   at Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate.CreateNewRouteMap(IServiceProvider sp, ProxyMiddlewareOptions options)
+   at Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate..ctor(ILogger`1 logger, IServiceProvider sp, IOptionsMonitor`1 options)|url: |action: 
+2025-05-09 15:27:14.1713|6|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception Nbg.AspNetCore.Audit.Filter.AuditFilterException: *** AuditFilter configuration caused an exception and was not completed. ***
+ ---> Nbg.AspNetCore.Audit.Filter.AuditFilterException: Configuration values [UseSqlServer] and [UseBigDataClient] cannot be both false - please set at least one of them to true.
+   at Nbg.AspNetCore.Audit.Filter.AuditFilterOptions.Validate()
+   at Nbg.AspNetCore.Audit.Filter.AuditLogic.ReconfigureAuditFilter(AuditFilterOptions configuration, Boolean firstConfiguration)
+   --- End of inner exception stack trace ---
+   at Nbg.AspNetCore.Audit.Filter.AuditLogic.ReconfigureAuditFilter(AuditFilterOptions configuration, Boolean firstConfiguration)
+   at Nbg.AspNetCore.Audit.Filter.AuditLogic..ctor(IIdentityService identityService, IServiceAuditDataInterceptor serviceAuditInterceptor, IOptions`1 options, IServiceProvider sp, ILogger`1 logger)
+   at Nbg.AspNetCore.Audit.Filter.Module.AuditModuleDiExtensions.<>c.<AddAuditModulePrivate>b__1_0(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.<>c__37`1.<AddFilter>b__37_0(IServiceProvider sp)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.AddFilter(Func`2 factory)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.AddFilter[T]()
+   at Nbg.AspNetCore.ProxyMiddleware.RouteAuditDiExtensions.AddAudit(Route route)
+   at Nbg.AspNetCore.ProxyMiddleware.Modules.Audit.DefaultAuditModule.Configure(Route route, RouteOptions routeOptions, ProxyMiddlewareOptions middlewareOptions)
+   at Nbg.AspNetCore.ProxyMiddleware.Configuration.ConfigureAudit.<>c__DisplayClass0_0.<Configure>b__0(IServiceProvider sp)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.Configure(Action`1 initializer)
+   at Nbg.AspNetCore.ProxyMiddleware.Configuration.ConfigureAudit.Configure(Route route, RouteOptions routeOptions, ProxyMiddlewareOptions middlewareOptions)
+   at Nbg.AspNetCore.ProxyMiddleware.Configuration.RouteConfigurators.Configure(Route route, RouteOptions routeOptions, ProxyMiddlewareOptions middlewareOptions)
+   at Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate.ConfigureRoute(RouteMap routeMap, ProxyMiddlewareOptions middlewareOptions, RouteOptions routeOptions, Route parentRoute)
+   at Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate.ConfigureDefaultRoutes(RouteMap routeMap, ProxyMiddlewareOptions middlewareOptions, List`1 routes)
+   at Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate.CreateNewRouteMap(IServiceProvider sp, ProxyMiddlewareOptions options)
+   at Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate..ctor(ILogger`1 logger, IServiceProvider sp, IOptionsMonitor`1 options)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: 
+2025-05-09 15:27:14.1776|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 15:27:14.1783|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 15:27:14.1783|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 15:27:14.1783|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 15:28:26.7840|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-09 15:28:31.7326|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 15:28:31.9379|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-09 15:28:31.9451|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Configuring route '/' |url: |action: 
+2025-05-09 15:28:31.9463|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Modules.Authorization.DefaultAuthorizationModule|Default authorization enabled on route '/' |url: |action: 
+2025-05-09 15:28:31.9475|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Configuring route '/health' |url: |action: 
+2025-05-09 15:28:31.9475|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-09 15:28:31.9499|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-09 15:28:31.9550|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 15:28:31.9557|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 15:28:31.9557|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 15:28:31.9557|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 15:28:34.4064|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:28:34.4084|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:28:34.4084|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:28:34.4173|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:28:35.6805|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:28:35.6873|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:28:35.6958|0|WARN|Nbg.AspNetCore.ProxyMiddleware.Plugins.Validation.ScopeValidation.ClientScopeValidationPlugin|User  token does not include any of the required client scopes [ openid profile email role ], but includes following [''] scopes |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:29:36.9104|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-09 15:29:41.5795|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 15:29:41.7744|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-09 15:29:41.7812|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Configuring route '/' |url: |action: 
+2025-05-09 15:29:41.7829|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Configuring route '/health' |url: |action: 
+2025-05-09 15:29:41.7829|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-09 15:29:41.7854|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-09 15:29:41.7906|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 15:29:41.7914|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 15:29:41.7921|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 15:29:41.7921|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 15:29:45.3138|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:29:45.3286|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:29:45.3291|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:29:45.3355|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:29:46.8468|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:29:46.8568|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:29:47.5162|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin|Handling Non-OK response: Status UnsupportedMediaType, Content [{"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-257c688d328fef90183ebadfd30417a9-781340e710313a69-00"}] |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:29:47.5172|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.Plugins.ExceptionHandling.DefaultExceptionHandlingPlugin|Web Api Status Code: UnsupportedMediaType, From: http://localhost:7032/api/Author/get, Message: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-257c688d328fef90183ebadfd30417a9-781340e710313a69-00"} Nbg.AspNetCore.ProxyMiddleware.ProxyMiddlewareException: Web Api Status Code: UnsupportedMediaType, From: http://localhost:7032/api/Author/get, Message: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-257c688d328fef90183ebadfd30417a9-781340e710313a69-00"}
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.HandleNonOk(HttpResponseMessage response)
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.InvokeAsync(ProxyContext context, Func`1 next)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.PluginQueue.Next()
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ExceptionHandling.DefaultExceptionHandlingPlugin.InvokeAsync(ProxyContext context, Func`1 next)|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:30:47.1684|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-09 15:30:51.9190|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-09 15:30:52.1390|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-09 15:30:52.1466|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Configuring route '/' |url: |action: 
+2025-05-09 15:30:52.1484|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Configuring route '/health' |url: |action: 
+2025-05-09 15:30:52.1484|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-09 15:30:52.1509|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-09 15:30:52.1566|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-09 15:30:52.1578|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-09 15:30:52.1578|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-09 15:30:52.1578|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-09 15:30:54.5605|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:30:54.5654|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:30:54.5659|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:30:54.5705|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:30:55.7072|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:30:55.7144|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:30:55.7452|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin|Handling Non-OK response: Status UnsupportedMediaType, Content [{"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-ca67bfd3854adff771c923d867020fee-4ec4b29bc21d2bb6-00"}] |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:30:55.7463|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware|Web Api Status Code: UnsupportedMediaType, From: http://localhost:7032/api/Author/get, Message: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-ca67bfd3854adff771c923d867020fee-4ec4b29bc21d2bb6-00"} Nbg.AspNetCore.ProxyMiddleware.ProxyMiddlewareException: Web Api Status Code: UnsupportedMediaType, From: http://localhost:7032/api/Author/get, Message: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-ca67bfd3854adff771c923d867020fee-4ec4b29bc21d2bb6-00"}
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.HandleNonOk(HttpResponseMessage response)
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.InvokeAsync(ProxyContext context, Func`1 next)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.PluginQueue.Next()
+   at Nbg.AspNetCore.ProxyMiddleware.Route.Invoke(ProxyContext context)
+   at Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware.InvokeAsync(HttpContext context)|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:30:55.7477|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Nbg.AspNetCore.ProxyMiddleware.ProxyMiddlewareException: Web Api Status Code: UnsupportedMediaType, From: http://localhost:7032/api/Author/get, Message: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-ca67bfd3854adff771c923d867020fee-4ec4b29bc21d2bb6-00"}
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.HandleNonOk(HttpResponseMessage response)
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.InvokeAsync(ProxyContext context, Func`1 next)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.PluginQueue.Next()
+   at Nbg.AspNetCore.ProxyMiddleware.Route.Invoke(ProxyContext context)
+   at Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware.InvokeAsync(HttpContext context)
+   at Nbg.NetCore.DevPortal.Proxy.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/Startup.cs:line 91
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:14.4705|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:14.4716|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:14.4716|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:14.4777|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:15.0332|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:15.0343|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:15.0480|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin|Handling Non-OK response: Status UnsupportedMediaType, Content [{"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-253360bf7d7d11873291979e48ecfbb2-b7d7c662b8aa0386-00"}] |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:15.0490|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware|Web Api Status Code: UnsupportedMediaType, From: http://localhost:7032/api/Author/get, Message: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-253360bf7d7d11873291979e48ecfbb2-b7d7c662b8aa0386-00"} Nbg.AspNetCore.ProxyMiddleware.ProxyMiddlewareException: Web Api Status Code: UnsupportedMediaType, From: http://localhost:7032/api/Author/get, Message: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-253360bf7d7d11873291979e48ecfbb2-b7d7c662b8aa0386-00"}
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.HandleNonOk(HttpResponseMessage response)
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.InvokeAsync(ProxyContext context, Func`1 next)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.PluginQueue.Next()
+   at Nbg.AspNetCore.ProxyMiddleware.Route.Invoke(ProxyContext context)
+   at Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware.InvokeAsync(HttpContext context)|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:15.0499|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Nbg.AspNetCore.ProxyMiddleware.ProxyMiddlewareException: Web Api Status Code: UnsupportedMediaType, From: http://localhost:7032/api/Author/get, Message: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-253360bf7d7d11873291979e48ecfbb2-b7d7c662b8aa0386-00"}
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.HandleNonOk(HttpResponseMessage response)
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.InvokeAsync(ProxyContext context, Func`1 next)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.PluginQueue.Next()
+   at Nbg.AspNetCore.ProxyMiddleware.Route.Invoke(ProxyContext context)
+   at Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware.InvokeAsync(HttpContext context)
+   at Nbg.NetCore.DevPortal.Proxy.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/Startup.cs:line 91
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:24.0788|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:24.0788|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:24.0788|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:24.0802|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:24.5669|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:24.5677|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:29.5507|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:29.5507|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:29.5507|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:29.5507|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:30.1850|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:32:30.1861|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:19.1167|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:19.1167|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:19.1167|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:19.1177|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:19.6806|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:19.6819|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:23.7147|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:23.7147|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:23.7147|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:23.7147|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:24.1840|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:24.1859|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:25.9265|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:25.9265|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:25.9265|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:25.9265|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:26.2806|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:26.2806|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:28.2955|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:28.2955|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:28.2955|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:28.2955|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:28.6207|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:28.6217|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:33.0157|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:33.0157|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:33.0157|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:33.0165|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:33.3275|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:36:33.3287|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:55:46.7784|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/test|action: Post
+2025-05-09 15:55:46.7795|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/test|action: Post
+2025-05-09 15:55:46.7796|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/test|action: Post
+2025-05-09 15:55:46.7814|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/test|action: Post
+2025-05-09 15:55:47.7552|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/test|action: Post
+2025-05-09 15:55:47.7577|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/test|action: Post
+2025-05-09 15:55:47.7797|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin|Handling Non-OK response: Status NotFound, Content [] |url: http://localhost/api/test|action: Post
+2025-05-09 15:55:47.7797|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware|Web Api Status Code: NotFound, From: http://localhost:7032/api/test, Message:  Nbg.AspNetCore.ProxyMiddleware.ProxyMiddlewareException: Web Api Status Code: NotFound, From: http://localhost:7032/api/test, Message: 
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.HandleNonOk(HttpResponseMessage response)
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.InvokeAsync(ProxyContext context, Func`1 next)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.PluginQueue.Next()
+   at Nbg.AspNetCore.ProxyMiddleware.Route.Invoke(ProxyContext context)
+   at Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware.InvokeAsync(HttpContext context)|url: http://localhost/api/test|action: Post
+2025-05-09 15:55:47.7815|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Nbg.AspNetCore.ProxyMiddleware.ProxyMiddlewareException: Web Api Status Code: NotFound, From: http://localhost:7032/api/test, Message: 
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.HandleNonOk(HttpResponseMessage response)
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.InvokeAsync(ProxyContext context, Func`1 next)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.PluginQueue.Next()
+   at Nbg.AspNetCore.ProxyMiddleware.Route.Invoke(ProxyContext context)
+   at Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware.InvokeAsync(HttpContext context)
+   at Nbg.NetCore.DevPortal.Proxy.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/Startup.cs:line 91
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: http://localhost/api/test|action: Post
+2025-05-09 15:56:12.9323|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:12.9323|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:12.9323|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:12.9323|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:13.2832|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/test|action: Post
+2025-05-09 15:56:13.2853|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:13.2912|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin|Handling Non-OK response: Status NotFound, Content [] |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:13.2912|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware|Web Api Status Code: NotFound, From: http://localhost:7032/api/test, Message:  Nbg.AspNetCore.ProxyMiddleware.ProxyMiddlewareException: Web Api Status Code: NotFound, From: http://localhost:7032/api/test, Message: 
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.HandleNonOk(HttpResponseMessage response)
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.InvokeAsync(ProxyContext context, Func`1 next)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.PluginQueue.Next()
+   at Nbg.AspNetCore.ProxyMiddleware.Route.Invoke(ProxyContext context)
+   at Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware.InvokeAsync(HttpContext context)|url: http://localhost/api/test|action: Post
+2025-05-09 15:56:13.2926|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Nbg.AspNetCore.ProxyMiddleware.ProxyMiddlewareException: Web Api Status Code: NotFound, From: http://localhost:7032/api/test, Message: 
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.HandleNonOk(HttpResponseMessage response)
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.InvokeAsync(ProxyContext context, Func`1 next)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.PluginQueue.Next()
+   at Nbg.AspNetCore.ProxyMiddleware.Route.Invoke(ProxyContext context)
+   at Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware.InvokeAsync(HttpContext context)
+   at Nbg.NetCore.DevPortal.Proxy.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/Startup.cs:line 91
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: http://localhost/api/test|action: Post
+2025-05-09 15:56:21.2178|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:21.2183|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:21.2183|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:21.2183|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:22.3840|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/test|action: Post
+2025-05-09 15:56:22.3852|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:22.3953|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin|Handling Non-OK response: Status NotFound, Content [] |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:22.3953|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware|Web Api Status Code: NotFound, From: http://localhost:7032/api/test, Message:  Nbg.AspNetCore.ProxyMiddleware.ProxyMiddlewareException: Web Api Status Code: NotFound, From: http://localhost:7032/api/test, Message: 
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.HandleNonOk(HttpResponseMessage response)
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.InvokeAsync(ProxyContext context, Func`1 next)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.PluginQueue.Next()
+   at Nbg.AspNetCore.ProxyMiddleware.Route.Invoke(ProxyContext context)
+   at Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware.InvokeAsync(HttpContext context)|url: http://localhost/api/test|action: Post
+2025-05-09 15:56:22.3979|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Nbg.AspNetCore.ProxyMiddleware.ProxyMiddlewareException: Web Api Status Code: NotFound, From: http://localhost:7032/api/test, Message: 
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.HandleNonOk(HttpResponseMessage response)
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.InvokeAsync(ProxyContext context, Func`1 next)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.PluginQueue.Next()
+   at Nbg.AspNetCore.ProxyMiddleware.Route.Invoke(ProxyContext context)
+   at Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware.InvokeAsync(HttpContext context)
+   at Nbg.NetCore.DevPortal.Proxy.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/Startup.cs:line 91
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: http://localhost/api/test|action: Post
+2025-05-09 15:56:25.5093|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:25.5093|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:25.5093|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:25.5093|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:26.7803|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/test|action: Post
+2025-05-09 15:56:26.7820|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:26.7853|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin|Handling Non-OK response: Status NotFound, Content [] |url: http://localhost/api/test|action: Post
+2025-05-09 15:56:26.7853|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware|Web Api Status Code: NotFound, From: http://localhost:7032/api/test, Message:  Nbg.AspNetCore.ProxyMiddleware.ProxyMiddlewareException: Web Api Status Code: NotFound, From: http://localhost:7032/api/test, Message: 
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.HandleNonOk(HttpResponseMessage response)
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.InvokeAsync(ProxyContext context, Func`1 next)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.PluginQueue.Next()
+   at Nbg.AspNetCore.ProxyMiddleware.Route.Invoke(ProxyContext context)
+   at Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware.InvokeAsync(HttpContext context)|url: http://localhost/api/test|action: Post
+2025-05-09 15:56:26.7889|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Nbg.AspNetCore.ProxyMiddleware.ProxyMiddlewareException: Web Api Status Code: NotFound, From: http://localhost:7032/api/test, Message: 
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.HandleNonOk(HttpResponseMessage response)
+   at Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin.InvokeAsync(ProxyContext context, Func`1 next)
+   at Nbg.AspNetCore.ProxyMiddleware.Route.PluginQueue.Next()
+   at Nbg.AspNetCore.ProxyMiddleware.Route.Invoke(ProxyContext context)
+   at Nbg.AspNetCore.ProxyMiddleware.ProxyMiddleware.InvokeAsync(HttpContext context)
+   at Nbg.NetCore.DevPortal.Proxy.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/Startup.cs:line 91
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: http://localhost/api/test|action: Post
+2025-05-09 15:56:57.9836|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:56:57.9836|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:56:57.9836|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:56:57.9836|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:56:58.3557|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:56:58.3557|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:19.8307|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:19.8307|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:19.8307|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:19.8307|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:20.4527|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:20.4539|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:27.5867|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:27.5867|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:27.5867|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:27.5867|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:28.3772|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:28.3782|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:28.5598|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin|Handling Non-OK response: Status InternalServerError, Content [System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.SetSocketOption(SocketOptionLevel optionLevel, SocketOptionName optionName, Int32 optionValue)
+   at System.Data.SqlClient.SNI.SNITCPHandle..ctor(String serverName, Int32 port, Int64 timerExpire, Object callbackObject, Boolean parallel)
+   at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(IServiceProvider sp) in /Users/nkotsiopoulos/Projects/Donald/AutoCode/DevPortal/DeveloperPortalBackend/Program.cs:line 99
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+
+HEADERS
+=======
+Accept: */*
+Connection: keep-alive
+Host: localhost:7032
+User-Agent: PostmanRuntime/7.43.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+traceparent: 00-6a123e0f7dc07bdb4e44634be8735cc6-f92f9b877c81a15e-00
+Content-Length: 304
+] |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:55.4310|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:55.4319|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:55.4319|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:55.4319|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:55.8473|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:55.8486|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:58.5830|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin|Handling Non-OK response: Status InternalServerError, Content [System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.SetSocketOption(SocketOptionLevel optionLevel, SocketOptionName optionName, Int32 optionValue)
+   at System.Data.SqlClient.SNI.SNITCPHandle..ctor(String serverName, Int32 port, Int64 timerExpire, Object callbackObject, Boolean parallel)
+   at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(IServiceProvider sp) in /Users/nkotsiopoulos/Projects/Donald/AutoCode/DevPortal/DeveloperPortalBackend/Program.cs:line 99
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+
+HEADERS
+=======
+Accept: */*
+Connection: keep-alive
+Host: localhost:7032
+User-Agent: PostmanRuntime/7.43.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+traceparent: 00-76a85d5a99a8e6741f6705272cfe1083-e05f918546b0631f-00
+Content-Length: 304
+] |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:57:58.5830|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin|Handling Non-OK response: Status InternalServerError, Content [System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.SetSocketOption(SocketOptionLevel optionLevel, SocketOptionName optionName, Int32 optionValue)
+   at System.Data.SqlClient.SNI.SNITCPHandle..ctor(String serverName, Int32 port, Int64 timerExpire, Object callbackObject, Boolean parallel)
+   at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(IServiceProvider sp) in /Users/nkotsiopoulos/Projects/Donald/AutoCode/DevPortal/DeveloperPortalBackend/Program.cs:line 99
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+
+HEADERS
+=======
+Accept: */*
+Connection: keep-alive
+Host: localhost:7032
+User-Agent: PostmanRuntime/7.43.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+traceparent: 00-f28c9e0b2ea3dd31017bd7ac97e79820-56d1fac174c3999f-00
+Content-Length: 304
+] |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:58:03.1880|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:58:03.1880|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:58:03.1880|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:58:03.1890|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:58:03.5982|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:58:03.5982|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:58:24.4712|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:58:24.4721|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:58:24.4721|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:58:24.4721|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:58:25.4031|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 15:58:25.4045|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 
+2025-05-09 15:58:25.9212|0|ERROR|Nbg.AspNetCore.ProxyMiddleware.Plugins.ReverseProxy.ReverseProxyPlugin|Handling Non-OK response: Status InternalServerError, Content [System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.SetSocketOption(SocketOptionLevel optionLevel, SocketOptionName optionName, Int32 optionValue)
+   at System.Data.SqlClient.SNI.SNITCPHandle..ctor(String serverName, Int32 port, Int64 timerExpire, Object callbackObject, Boolean parallel)
+   at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(IServiceProvider sp) in /Users/nkotsiopoulos/Projects/Donald/AutoCode/DevPortal/DeveloperPortalBackend/Program.cs:line 99
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+
+HEADERS
+=======
+Accept: */*
+Connection: keep-alive
+Host: localhost:7032
+User-Agent: PostmanRuntime/7.43.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+traceparent: 00-f608a56047d6f31d9608f13cbdc533f0-00ec9076b9baaf40-00
+Content-Length: 304
+] |url: http://localhost/api/Author/get|action: 
+2025-05-09 16:01:10.8234|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/Author/get|action: 
+2025-05-09 16:01:10.8234|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/Author/get|action: 
+2025-05-09 16:01:10.8234|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/Author/get|action: 
+2025-05-09 16:01:10.8244|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/Author/get|action: 
+2025-05-09 16:01:11.5163|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/Author/get|action: 
+2025-05-09 16:01:11.5177|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/Author/get|action: 

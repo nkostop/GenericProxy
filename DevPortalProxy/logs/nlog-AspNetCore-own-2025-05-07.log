@@ -1,0 +1,157 @@
+2025-05-07 10:02:41.8231|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-07 10:02:42.1145|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-07 10:02:42.1204|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-07 10:02:42.1211|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-07 10:02:42.1211|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-07 10:02:42.1211|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-07 10:02:57.7924|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/healthcheckpi/te|action: 
+2025-05-07 10:02:57.7934|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: 7C9D61FA1555D6AF8200914A03F31CA91DC43408646ABD80978FFE1624A3D11B-1 |url: http://localhost/healthcheckpi/te|action: 
+2025-05-07 10:02:57.7934|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/healthcheckpi/te|action: 
+2025-05-07 10:02:59.2968|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/healthcheckpi/te|action: 
+2025-05-07 10:02:59.3037|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/healthcheckpi/te|action: 
+2025-05-07 12:56:10.0900|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-07 12:56:19.8834|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-07 12:56:20.1655|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-07 12:56:20.1722|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-07 12:56:20.1722|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-07 12:56:20.1722|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-07 12:56:20.1722|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-07 12:56:34.5214|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/healthcheckpi/test|action: 
+2025-05-07 12:56:34.5222|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: 7C9D61FA1555D6AF8200914A03F31CA91DC43408646ABD80978FFE1624A3D11B-1 |url: http://localhost/healthcheckpi/test|action: 
+2025-05-07 12:56:34.5222|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/healthcheckpi/test|action: 
+2025-05-07 12:56:35.9213|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/healthcheckpi/test|action: 
+2025-05-07 12:56:35.9308|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/healthcheckpi/test|action: 
+2025-05-07 12:59:19.6639|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/test|action: Post
+2025-05-07 12:59:19.6639|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: 7C9D61FA1555D6AF8200914A03F31CA91DC43408646ABD80978FFE1624A3D11B-1 |url: http://localhost/api/test|action: Post
+2025-05-07 12:59:19.6646|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/test|action: Post
+2025-05-07 12:59:20.4504|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/test|action: Post
+2025-05-07 12:59:20.4524|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/test|action: Post
+2025-05-07 17:30:14.5699|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-07 17:30:29.6362|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-07 17:30:29.8541|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-07 17:30:29.8561|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-07 17:30:29.8584|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-07 17:30:29.8645|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-07 17:30:29.8655|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-07 17:30:29.8655|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-07 17:30:29.8655|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-07 17:30:39.4797|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/test|action: Post
+2025-05-07 17:30:39.4803|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: 7C9D61FA1555D6AF8200914A03F31CA91DC43408646ABD80978FFE1624A3D11B-1 |url: http://localhost/api/test|action: Post
+2025-05-07 17:30:39.4803|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/test|action: Post
+2025-05-07 17:30:39.4875|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/test|action: Post
+2025-05-07 17:30:40.9027|0|ERROR|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Object reference not set to an instance of an object. System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdentityModel.Client.JObjectExtensions.ToClaims(JObject json, String[] excludeKeys)
+   at IdentityModel.Client.TokenIntrospectionResponse.InitializeAsync(Object initializationData)
+   at IdentityModel.Client.ProtocolResponse.FromHttpResponseAsync[T](HttpResponseMessage httpResponse, Object initializationData)
+   at IdentityModel.Client.HttpClientTokenIntrospectionExtensions.IntrospectTokenAsync(HttpMessageInvoker client, TokenIntrospectionRequest request, CancellationToken cancellationToken)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.LoadClaimsForToken(String token)
+   at IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()|url: http://localhost/api/test|action: Post
+2025-05-07 17:30:40.9096|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Object reference not set to an instance of an object. |url: http://localhost/api/test|action: Post
+2025-05-07 17:30:40.9255|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Forwarding challenge to scheme: BearerIdentityServerAuthenticationIntrospection |url: http://localhost/api/test|action: Post
+2025-05-07 17:30:40.9255|12|INFO|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|AuthenticationScheme: BearerIdentityServerAuthenticationIntrospection was challenged. |url: http://localhost/api/test|action: Post
+2025-05-07 17:30:40.9255|12|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|AuthenticationScheme: Bearer was challenged. |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:02.8627|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:02.8632|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:02.8632|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:02.8642|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:03.6991|0|ERROR|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:03.7039|7|INFO|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|BearerIdentityServerAuthenticationIntrospection was not authenticated. Failure message: Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:03.7039|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:03.7082|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Forwarding challenge to scheme: BearerIdentityServerAuthenticationIntrospection |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:03.7082|12|INFO|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|AuthenticationScheme: BearerIdentityServerAuthenticationIntrospection was challenged. |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:03.7082|12|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|AuthenticationScheme: Bearer was challenged. |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:37.2217|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:37.2221|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:37.2221|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:37.2221|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:37.9613|0|ERROR|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:37.9613|7|INFO|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|BearerIdentityServerAuthenticationIntrospection was not authenticated. Failure message: Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:37.9620|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:37.9670|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Forwarding challenge to scheme: BearerIdentityServerAuthenticationIntrospection |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:37.9670|12|INFO|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|AuthenticationScheme: BearerIdentityServerAuthenticationIntrospection was challenged. |url: http://localhost/api/test|action: Post
+2025-05-07 17:36:37.9670|12|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|AuthenticationScheme: Bearer was challenged. |url: http://localhost/api/test|action: Post
+2025-05-07 17:37:42.8614|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-07 17:37:48.1109|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-07 17:37:48.3390|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-07 17:37:48.3415|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-07 17:37:48.3438|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-07 17:37:48.3507|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-07 17:37:48.3515|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-07 17:37:48.3515|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-07 17:37:48.3515|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-07 17:37:50.6365|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/test|action: Post
+2025-05-07 17:37:50.6365|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/test|action: Post
+2025-05-07 17:37:50.6365|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/test|action: Post
+2025-05-07 17:37:50.6415|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/test|action: Post
+2025-05-07 17:37:52.5476|0|ERROR|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/test|action: Post
+2025-05-07 17:37:52.5505|7|INFO|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|BearerIdentityServerAuthenticationIntrospection was not authenticated. Failure message: Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/test|action: Post
+2025-05-07 17:37:52.5516|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/test|action: Post
+2025-05-07 17:37:52.5769|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Forwarding challenge to scheme: BearerIdentityServerAuthenticationIntrospection |url: http://localhost/api/test|action: Post
+2025-05-07 17:37:52.5769|12|INFO|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|AuthenticationScheme: BearerIdentityServerAuthenticationIntrospection was challenged. |url: http://localhost/api/test|action: Post
+2025-05-07 17:37:52.5769|12|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|AuthenticationScheme: Bearer was challenged. |url: http://localhost/api/test|action: Post
+2025-05-07 18:29:49.4588|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-07 18:29:56.7011|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-07 18:29:56.8787|6|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddControllers' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.EnsureControllerServices(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllers(IEndpointRouteBuilder endpoints)
+   at Nbg.NetCore.DevPortal.Proxy.Startup.<>c.<Configure>b__5_1(IEndpointRouteBuilder endpoints) in /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/Startup.cs:line 101
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(IApplicationBuilder builder, Action`1 configure)
+   at Nbg.NetCore.DevPortal.Proxy.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/Startup.cs:line 99
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: 
+2025-05-07 18:29:56.8972|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-07 18:29:56.8986|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-07 18:29:56.8986|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-07 18:29:56.8986|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-07 18:30:16.9024|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2025-05-07 18:30:20.8356|0|INFO|Nbg.NetCore.DevPortal.Proxy.Program|Web Api Starting |url: |action: 
+2025-05-07 18:30:21.0625|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|Loading route map configuration.. |url: |action: 
+2025-05-07 18:30:21.0653|0|INFO|Nbg.AspNetCore.ProxyMiddleware.Routes.RouteMapSurrogate|RouteMap created. |url: |action: 
+2025-05-07 18:30:21.0679|16|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy/wwwroot. Static files may be unavailable. |url: |action: 
+2025-05-07 18:30:21.0744|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5211 |url: |action: 
+2025-05-07 18:30:21.0752|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2025-05-07 18:30:21.0752|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2025-05-07 18:30:21.0752|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/nkotsiopoulos/Projects/DevPortal_proxy/DevPortalProxy |url: |action: 
+2025-05-07 18:30:28.4089|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|HandleAuthenticateAsync called |url: http://localhost/api/test|action: Post
+2025-05-07 18:30:28.4095|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token found: CF8FE9743F6F2733948FC2995A843950611C73B000F6DCEAC5D0226039B3F7AD-1 |url: http://localhost/api/test|action: Post
+2025-05-07 18:30:28.4095|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Token is a reference token and is supported. |url: http://localhost/api/test|action: Post
+2025-05-07 18:30:28.4147|0|TRACE|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Token is not cached. |url: http://localhost/api/test|action: Post
+2025-05-07 18:30:29.8652|0|ERROR|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/test|action: Post
+2025-05-07 18:30:29.8660|7|INFO|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|BearerIdentityServerAuthenticationIntrospection was not authenticated. Failure message: Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/test|action: Post
+2025-05-07 18:30:29.8660|7|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Bearer was not authenticated. Failure message: Error returned from introspection endpoint: Internal Server Error |url: http://localhost/api/test|action: Post
+2025-05-07 18:30:29.8800|0|TRACE|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|Forwarding challenge to scheme: BearerIdentityServerAuthenticationIntrospection |url: http://localhost/api/test|action: Post
+2025-05-07 18:30:29.8800|12|INFO|IdentityModel.AspNetCore.OAuth2Introspection.OAuth2IntrospectionHandler|AuthenticationScheme: BearerIdentityServerAuthenticationIntrospection was challenged. |url: http://localhost/api/test|action: Post
+2025-05-07 18:30:29.8800|12|INFO|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|AuthenticationScheme: Bearer was challenged. |url: http://localhost/api/test|action: Post
