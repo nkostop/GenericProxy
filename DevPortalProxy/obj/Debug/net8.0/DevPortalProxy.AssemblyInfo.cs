@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DevPortalProxy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ae823472db74f1a65707846149b44c42ee4c874")]
 [assembly: System.Reflection.AssemblyProductAttribute("DevPortalProxy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DevPortalProxy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

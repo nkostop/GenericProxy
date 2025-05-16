@@ -31,14 +31,18 @@ namespace Nbg.NetCore.DevPortal.Proxy
         public void ConfigureServices(IServiceCollection services)
         {
             
-
+            var logger = NLog.LogManager.GetCurrentClassLogger();   
+            logger.Info("Configuring services...");
             services.AddDistributedMemoryCache();
+            logger.Info("Added distributed memory cache...");
             // Add IIdentityService implementation to dependency injection
             // services.AddintranetIdentityOAuth2();
             //add ibank services OAuth2
             services.AddiBankIdentityOAuth2();
+            logger.Info("Added iBank Identity OAuth2...");
 
             services.AddHttpClient("default", "HttpClient:default");
+            logger.Info("Added default HttpClient...");
 
 
             // services.AddHealthChecks()
@@ -65,7 +69,11 @@ namespace Nbg.NetCore.DevPortal.Proxy
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
 
-           
+            
+
+            var logger = NLog.LogManager.GetCurrentClassLogger();
+            logger.Info($"Environment: {env.EnvironmentName}");
+            logger.Info("Starting request pipeline configuration...");
 
             
             if (env.IsDevelopment())
